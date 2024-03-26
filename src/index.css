@@ -13,8 +13,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.page-transition {
+.page {
+  opacity: 1;
   transition: opacity 0.3s ease-in-out;
+}
+
+.page-exit {
+  opacity: 0;
 }
 
 a {
